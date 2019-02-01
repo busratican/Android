@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.rumiapp.rumi.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal"
+            android:paddingBottom="4dp"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@mipmap/ic_logo_round"/>
+            <TextView
+                android:fontFamily="casual"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimaryText"
+                android:text="Mevlana Celaleddin Rumi"
+                android:textSize="32sp"/>
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:background="@color/colorAccent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@color/colorLightPrimary"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:paddingLeft="60dp"
+            android:gravity="center_vertical">
+
+            <Button
+                android:id="@+id/btn_whoisrumi"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_weight="0"
+                android:background="@drawable/ic_whoisrumi" />
+
+            <TextView
+                android:textColor="@color/colorPrimaryText"
+                android:textSize="18sp"
+                android:fontFamily="casual"
+                android:paddingLeft="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ABOUT RUMI"/>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorAccent"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@color/colorLightPrimary"
+            android:layout_height="80dp"
+            android:orientation="horizontal"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:paddingLeft="60dp"
+            android:gravity="center_vertical">
+
+            <Button
+                android:id="@+id/btn_rumiword"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_weight="0"
+                android:background="@drawable/ic_003_swearing"
+                />
+
+            <TextView
+                android:textColor="@color/colorPrimaryText"
+                android:fontFamily="casual"
+                android:textSize="18sp"
+                android:paddingLeft="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="WORDS"/>
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorAccent"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@color/colorLightPrimary"
+            android:orientation="horizontal"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:paddingLeft="60dp"
+            android:gravity="center_vertical">
+
+            <Button
+                android:id="@+id/btn_rumibook"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_weight="0"
+                android:background="@drawable/ic_004_books"/>
+
+
+            <TextView
+                android:textColor="@color/colorPrimaryText"
+                android:fontFamily="casual"
+                android:textSize="18sp"
+                android:paddingLeft="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BOOKS"/>
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorAccent"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@color/colorLightPrimary"
+            android:orientation="horizontal"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:paddingLeft="60dp"
+            android:gravity="center_vertical">
+
+            <Button
+                android:id="@+id/btn_rumiphilosophy"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_weight="0"
+                android:background="@drawable/ic_video_camera" />
+
+
+            <TextView
+                android:fontFamily="casual"
+                android:textColor="@color/colorPrimaryText"
+                android:textSize="18sp"
+                android:paddingLeft="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MOVIES"/>
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:background="@color/colorAccent"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@color/colorLightPrimary"
+            android:orientation="horizontal"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:paddingLeft="60dp"
+            android:gravity="center_vertical">
+
+            <Button
+                android:id="@+id/btn_sebiaruz"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_weight="0"
+                android:background="@drawable/ic_dove" />
+
+
+            <TextView
+                android:fontFamily="casual"
+                android:textColor="@color/colorPrimaryText"
+                android:textSize="18sp"
+                android:paddingLeft="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DO YOU KNOW SHAB-I ARUS ?"/>
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:background="@color/colorAccent"/>
+        <TextView
+            android:text="2018"
+            android:textSize="12sp"
+            android:textColor="@color/colorPrimaryText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end|center_vertical"/>
+    </LinearLayout>
+
+
+</ScrollView>

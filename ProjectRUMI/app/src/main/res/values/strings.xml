@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">RUMI</string>
+    <string name="famous">Great Poet</string>
+    <string name="nationality">Afghan, Iranian</string>
+    <string name="birthdate">September 30, 1207</string>
+    <string name="bornin">Balk (Present-Day Afghanistan)</string>
+    <string name="sunsign">Libra</string>
+    <string name="father">Bahā Ud-Dīn Walad</string>
+    <string name="mother">Mumina Khātūn</string>
+    <string name="partner">Gowhar Khatun</string>
+    <string name="religion">Muslim</string>
+    <string name="diedon">December 17, 1273</string>
+    <string name="placeofdeath">Konya (Present-Day Turkey)</string>
+    <string name="pasaj">Maulana Jalaluddin Rumi was a 13th century Persian poet, an Islamic dervish and a Sufi mystic.
+        He is regarded as one of the greatest spiritual masters and poetical intellects.
+        Born in 1207 AD, he belonged to a family of learned theologians. He made use of everyday life’s circumstances to describe the spiritual world.
+        Rumi’s poems have acquired immense popularity, especially among the Persian speakers of Afghanistan, Iran and Tajikistan.
+        Numerous poems written by the great poet have been translated to different languages.</string>
+
+
+    <string name="default_book_name">[Book name]</string>
+    <string name="default_author_name">[Author name]</string>
+    <string name="default_book_type">[Book type]</string>
+    <string name="default_word_type">[Word type]</string>
+    <string name="default_word">[Word]</string>
+
+    <string name="beginning_sebi">
+        "In Mevleviism,Shab-i Arus is the night of Celaleddin-i Rumi's death.Mevlana Celaleddin Rumi calls this night "Wedding Night",which he regards as the night of joining to God.
+        Rumi's death anniversaries in the week of December 17,and International Commemoration ceremonies began to be called as "Shab-i Arus" among the public.Every year in Konya(Turkey), traditionally Memorial ceremonies are held for Mevlana's death day.One of the his poet,he said that:
+        Do not cry for me, if you fall into the trap of the devil, then cry..
+        When you see my dead,do not say it is a separation!No, it is not a separation,it is my meeting,it's time to meet my love(God).It is my wedding night!
+        If you want to watch the Shab-i Arus video,please click below."
+    </string>
+</resources>
